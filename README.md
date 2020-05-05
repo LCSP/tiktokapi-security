@@ -1,9 +1,13 @@
 # tiktokapi-security
 
-(You can see this working on https://tik-tok.ga)
-Contact me on Discord: https://discord.gg/j9Ek3cE
+Contact me on Discord: https://discord.gg/qqpJra5
 Contact me on email: lcfcnd1@hotmail.com
 
+## Login Services
+Login services are now avilables on this repo: [TikTokLoginServices](https://github.com/LCSP/TikTokLoginServices)
+
+
+-----
 Java class of the app (TikTok) that creates the "anti-spam" parameters:
 
     ts
@@ -41,5 +45,3 @@ Arguments:
  `user_id` : unique_id of the target profile.
  `count` : The amount of videos to retrieve (max 20)
 `max_cursor` : The first time fetching the posts this arguments needs to be 0, when the videos are retrieved in the json response there is a value called `max_cursor` that value should be the `max_cursor` for the next time you fetch the posts, this argument make the TikTok Api retrieve the videos after the ones you already have.
-
-
